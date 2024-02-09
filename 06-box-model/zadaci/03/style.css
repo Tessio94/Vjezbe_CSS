@@ -1,0 +1,19 @@
+body > div {
+  margin: 200px auto;
+  border: 10px solid rgba(128, 128, 128, 0.74);
+  height: 400px;
+  width: 400px;
+}
+
+body > div > div:first-child {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(255, 88, 88);
+}
+
+div:nth-child(2) {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(66, 101, 212);
+  margin: 0 0 0 50%;
+}
