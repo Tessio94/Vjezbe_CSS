@@ -11,7 +11,7 @@
 .div2 {
   width: 30.5%;
   height: 150px;
-  margin: 30px 0 0 66%;
+  margin: 30px 0 0 auto;
   padding: 2rem;
   background-color: rgba(146, 146, 146, 0.301);
   border: 4px dashed grey;
