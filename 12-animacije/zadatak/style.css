@@ -118,8 +118,9 @@ body {
   0% {
     top: 0;
   }
-  15% {
+  25% {
     top: 500px;
+    transform: rotate(0deg);
   }
   50% {
     top: 500px;
@@ -127,8 +128,9 @@ body {
     background-color: red;
     transform: rotate(-1turn);
   }
-  85% {
+  75% {
     top: 500px;
+    transform: rotate(0deg);
   }
   100% {
     top: 0;
