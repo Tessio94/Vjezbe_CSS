@@ -51,7 +51,7 @@ body {
 
 @media (min-width: 800px) {
   .flex-container {
-    height: 50vh;
+    /* height: 50vh; */
     gap: 2%;
   }
 
