@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1000px auto;
+}
+
+.container > div {
+  height: 50px;
+  width: 50px;
+  border: 3px solid red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: blue;
+}
+
+@keyframes animacija {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-500px);
+  }
+}
+
+.container > div:nth-of-type(1) {
+  animation: animacija 2s linear forwards;
+}
+.container > div:nth-of-type(2) {
+  animation: animacija 2s linear 0.5s forwards;
+}
+.container > div:nth-of-type(3) {
+  animation: animacija 2s linear 1s forwards;
+}
+.container > div:nth-of-type(4) {
+  animation: animacija 2s linear 1.5s forwards;
+}
+.container > div:nth-of-type(5) {
+  animation: animacija 2s linear 2s forwards;
+}
+.container > div:nth-of-type(6) {
+  animation: animacija 2s linear 2.5s forwards;
+}
+.container > div:nth-of-type(7) {
+  animation: animacija 2s linear 3s forwards;
+}
